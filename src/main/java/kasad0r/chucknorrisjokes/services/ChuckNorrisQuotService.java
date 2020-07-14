@@ -8,8 +8,8 @@ public class ChuckNorrisQuotService implements RandomQuot {
 
     private final ChuckNorrisQuotes chuckNorrisQuotService;
 
-    public ChuckNorrisQuotService() {
-        this.chuckNorrisQuotService = new ChuckNorrisQuotes();
+    public ChuckNorrisQuotService(ChuckNorrisQuotes chuckNorrisQuotService) {
+        this.chuckNorrisQuotService = chuckNorrisQuotService;
     }
 
 
